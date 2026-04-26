@@ -1,5 +1,6 @@
 package com.pluralsight;
 
+import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Product {
@@ -22,6 +23,7 @@ public class Product {
         this.price = Double.parseDouble(parts[2]);
         this.department = parts[3];
     }
+
 
     public String getSku() {
         return sku;
